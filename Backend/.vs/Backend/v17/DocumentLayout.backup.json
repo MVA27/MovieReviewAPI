@@ -58,8 +58,7 @@
               "RelativeToolTip": "MoviesReview.API\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T18:10:14.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T18:10:14.442Z"
             },
             {
               "$type": "Document",
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "MoviesReview.API\\Controllers\\MoviesController.cs",
               "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "MoviesReview.API\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwHQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwE4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T09:52:56.974Z",
               "EditorCaption": ""
@@ -84,8 +83,7 @@
               "RelativeToolTip": "MoviesReview.API\\Models\\DTOs\\MoviesDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T18:07:50.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T18:07:50.536Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "MoviesReview.API\\Models\\MoviesModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T18:07:03.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T18:07:03.86Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "MoviesReview.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:49:16.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T17:49:16.033Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "MoviesReview.API\\Constants\\ErrorResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T15:53:17.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T15:53:17.786Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "MoviesReview.API\\Constants\\Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T15:50:31.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T15:50:31.944Z"
             }
           ]
         }

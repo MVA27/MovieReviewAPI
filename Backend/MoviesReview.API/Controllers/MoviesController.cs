@@ -77,7 +77,6 @@ public class MoviesController : Controller
         await _db.SaveChangesAsync();
 
         return CreatedAtRoute("GetMovieByIdAsync", new { id = movie.Id }, movie);
-
     }
 
     [HttpDelete("{id:int}")]
