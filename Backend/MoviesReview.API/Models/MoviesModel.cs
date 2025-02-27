@@ -10,5 +10,6 @@ public class MoviesModel
     [Required]
     public string Name { get; set; } = string.Empty;
 
-    public List<CommentsModel> Comments { get; set; } = new();
+    [Required]
+    public string Review { get; set; } = string.Empty;
 }

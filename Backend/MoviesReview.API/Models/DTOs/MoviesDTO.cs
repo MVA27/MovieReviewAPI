@@ -4,5 +4,5 @@ public class MoviesDTO
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    public List<CommentsModel> Comments { get; set; } = new();
+    public string Review { get; set; }
 }

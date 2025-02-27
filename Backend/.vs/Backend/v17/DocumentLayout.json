@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|c:\\users\\mehul.anvekar\\desktop\\testx\\p\\moviereview\\backend\\moviesreview.api\\constants\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\constants\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|c:\\users\\mehul.anvekar\\desktop\\testx\\p\\moviereview\\backend\\moviesreview.api\\models\\dtos\\moviesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\models\\dtos\\moviesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|c:\\users\\mehul.anvekar\\desktop\\testx\\p\\moviereview\\backend\\moviesreview.api\\models\\commentsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\models\\commentsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|c:\\users\\mehul.anvekar\\desktop\\testx\\p\\moviereview\\backend\\moviesreview.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|c:\\users\\mehul.anvekar\\desktop\\testx\\p\\moviereview\\backend\\moviesreview.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|c:\\users\\mehul.anvekar\\desktop\\testx\\p\\moviereview\\backend\\moviesreview.api\\models\\moviesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\models\\moviesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|c:\\users\\mehul.anvekar\\desktop\\testx\\p\\moviereview\\backend\\moviesreview.api\\constants\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\constants\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|c:\\users\\mehul.anvekar\\desktop\\testx\\p\\moviereview\\backend\\moviesreview.api\\constants\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA2994-5A56-4DC9-87FF-2ECD3E015A4E}|MoviesReview.API\\MoviesReview.API.csproj|solutionrelative:moviesreview.api\\constants\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,39 +50,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ErrorResponse.cs",
-              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Constants\\ErrorResponse.cs",
-              "RelativeDocumentMoniker": "MoviesReview.API\\Constants\\ErrorResponse.cs",
-              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Constants\\ErrorResponse.cs",
-              "RelativeToolTip": "MoviesReview.API\\Constants\\ErrorResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T15:53:17.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Constants\\Message.cs",
-              "RelativeDocumentMoniker": "MoviesReview.API\\Constants\\Message.cs",
-              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Constants\\Message.cs",
-              "RelativeToolTip": "MoviesReview.API\\Constants\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T15:50:31.944Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CommentsModel.cs",
-              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Models\\CommentsModel.cs",
-              "RelativeDocumentMoniker": "MoviesReview.API\\Models\\CommentsModel.cs",
-              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Models\\CommentsModel.cs",
-              "RelativeToolTip": "MoviesReview.API\\Models\\CommentsModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MoviesReview.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MoviesReview.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:28:57.55Z"
+              "WhenOpened": "2025-02-27T18:10:14.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,9 +69,74 @@
               "RelativeDocumentMoniker": "MoviesReview.API\\Controllers\\MoviesController.cs",
               "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "MoviesReview.API\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T09:52:56.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoviesDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Models\\DTOs\\MoviesDTO.cs",
+              "RelativeDocumentMoniker": "MoviesReview.API\\Models\\DTOs\\MoviesDTO.cs",
+              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Models\\DTOs\\MoviesDTO.cs",
+              "RelativeToolTip": "MoviesReview.API\\Models\\DTOs\\MoviesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T18:07:50.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoviesModel.cs",
+              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Models\\MoviesModel.cs",
+              "RelativeDocumentMoniker": "MoviesReview.API\\Models\\MoviesModel.cs",
+              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Models\\MoviesModel.cs",
+              "RelativeToolTip": "MoviesReview.API\\Models\\MoviesModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T18:07:03.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Program.cs",
+              "RelativeDocumentMoniker": "MoviesReview.API\\Program.cs",
+              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Program.cs",
+              "RelativeToolTip": "MoviesReview.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:49:16.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Constants\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "MoviesReview.API\\Constants\\ErrorResponse.cs",
+              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Constants\\ErrorResponse.cs",
+              "RelativeToolTip": "MoviesReview.API\\Constants\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:53:17.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Constants\\Message.cs",
+              "RelativeDocumentMoniker": "MoviesReview.API\\Constants\\Message.cs",
+              "ToolTip": "C:\\Users\\mehul.anvekar\\Desktop\\testx\\P\\MovieReview\\Backend\\MoviesReview.API\\Constants\\Message.cs",
+              "RelativeToolTip": "MoviesReview.API\\Constants\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:50:31.944Z",
               "EditorCaption": ""
             }
           ]
