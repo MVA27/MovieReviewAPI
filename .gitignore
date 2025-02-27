@@ -5,11 +5,13 @@ Backend/MoviesReview.API/obj/
 
 # Ignore SQLite database
 Backend/MoviesReview.API/MovieReviewDb.sqlite
+Backend/MoviesReview.API/MovieReviewDbRev.sqlite
 Backend/MoviesReview.API/MovieReviewDb.sqlite-shm
 Backend/MoviesReview.API/MovieReviewDb.sqlite-wal
 Backend/MoviesReview.API/MovieReviewDb.sqlite-journal
 
 # Ignore user-specific files
+.vs/
 .vscode/
 *.user
 *.suo
