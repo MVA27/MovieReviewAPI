@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // Add DbContext with SQLite
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite("Data Source=MovieReviewDb.sqlite"));
+    options.UseSqlite("Data Source=MovieReviewDbRev.sqlite"));
 
 var app = builder.Build();
 
