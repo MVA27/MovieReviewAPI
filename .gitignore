@@ -1,9 +1,12 @@
+## Backend
 # Ignore build output
 Backend/MoviesReview.API/bin/
 Backend/MoviesReview.API/obj/
 
 # Ignore SQLite database
 Backend/MoviesReview.API/MovieReviewDb.sqlite
+Backend/MoviesReview.API/MovieReviewDb.sqlite-shm
+Backend/MoviesReview.API/MovieReviewDb.sqlite-wal
 Backend/MoviesReview.API/MovieReviewDb.sqlite-journal
 
 # Ignore user-specific files
@@ -28,3 +31,38 @@ Backend/MoviesReview.API/.env.local
 
 # Ignore migrations binary output
 Backend/MoviesReview.API/Migrations/
+
+## Frontend
+Frontend/logs
+Frontend/*.log
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+Frontend/lerna-debug.log*
+
+# Dependencies
+Frontend/node_modules
+Frontend/dist
+Frontend/dist-ssr
+Frontend/.parcel-cache
+Frontend/.next
+Frontend/.nuxt
+Frontend/out
+
+# Local environment
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+
+# Editor directories and files
+Frontend/.vscode/*
+!Frontend/.vscode/extensions.json
+Frontend/.idea
+Frontend/.DS_Store
+Frontend/*.suo
+Frontend/*.ntvs*
+Frontend/*.njsproj
+Frontend/*.sln
+Frontend/*.sw?

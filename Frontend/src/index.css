@@ -1,0 +1,7 @@
+body{
+  background-image: url("../public/black-red-wave.svg");
+  background-size: cover;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-repeat: no-repeat;
+}

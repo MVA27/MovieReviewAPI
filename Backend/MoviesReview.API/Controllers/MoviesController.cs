@@ -38,9 +38,7 @@ public class MoviesController : Controller
         return Ok(movies);
     }
 
-
     [HttpGet("{id:int}", Name = "GetMovieByIdAsync")]
-
     public async Task<ActionResult<MoviesDTO>> GetMovieByIdAsync([FromRoute] int id)
     {
         if (id <= 0)
