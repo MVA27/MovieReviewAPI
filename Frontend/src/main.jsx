@@ -5,7 +5,8 @@ import './index.css'
 import "@radix-ui/themes/styles.css";
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import { ROUTES } from './constants/routes.js'
-import Home from './Home.jsx'
+import Home from '../src/pages/Home'
+import MovieList from '../src/pages/MovieList'
 import DetailedView from './pages/DetailedView';
 
 const router = createBrowserRouter(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
     <>
       <Route path={ROUTES.HOME} element={<Home/>}/>
       <Route path={ROUTES.DETAIL} element={<DetailedView/>}/>
+      <Route path={ROUTES.LIST} element={<MovieList/>}/>
     </>
   )
 )

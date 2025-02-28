@@ -1,22 +1,45 @@
 import { TextField, TextArea, Button, Container, Box } from "@radix-ui/themes";
+import { useState } from "react";
 
 export default function MovieForm() {
 
+    const [name, setName] = useState("");
+    const [review, setReview] = useState("");
+
     function handleSubmit(e) {
 
-        alert("TBD");
+        const endpoint = import.meta.env.VITE_API_ENDPOINT
+
+        fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name, review }),
+          });
 
         e.preventDefault();
     }
 
     return (
         <>
-            <Box style={{ background: "", borderRadius: "var(--radius-3)" }} mt="4">
+            <Box mt="4">
                 <Container size="1">
                     <form onSubmit={ handleSubmit }>
-                        <TextField.Root color="red" size="2" placeholder="Enter the movie name..." m="1" />
-                        <TextArea color="red" placeholder="Enter movie review..." m="1"/>
-                        <Button color="red" variant="solid" type="submit" m="1">Enter</Button>
+                        <TextField.Root 
+                            value={name} 
+                            onChange={ (e)=>{ setName(e.target.value) } } 
+                            color="orange" 
+                            size="2" 
+                            placeholder="Enter the movie name..." 
+                            m="1" 
+                        />
+                        <TextArea 
+                            value={review} 
+                            onChange={ (e)=>{ setReview(e.target.value) } } 
+                            color="orange" 
+                            placeholder="Enter movie review..." 
+                            m="1"
+                        />
+                        <Button color="orange" variant="solid" type="submit" m="1">Enter</Button>
                     </form>                    
                 </Container>
             </Box>

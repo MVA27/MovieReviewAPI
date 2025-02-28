@@ -4,13 +4,12 @@ Backend/MoviesReview.API/bin/
 Backend/MoviesReview.API/obj/
 
 # Ignore SQLite database
-Backend/MoviesReview.API/MovieReviewDb.sqlite
-Backend/MoviesReview.API/MovieReviewDbRev.sqlite
-Backend/MoviesReview.API/MovieReviewDb.sqlite-shm
-Backend/MoviesReview.API/MovieReviewDb.sqlite-wal
-Backend/MoviesReview.API/MovieReviewDb.sqlite-journal
+Backend/MoviesReview.API/MovieReviewDb*
+Backend/MoviesReview.API/*.sqlite*
+Backend/MoviesReview.API/*.sqlite-wal
+Backend/MoviesReview.API/*.sqlite-shm
 
-# Ignore user-specific files
+# Ignore user-specific and IDE-related files
 .vs/
 .vscode/
 *.user
@@ -23,48 +22,47 @@ Backend/MoviesReview.API/logs/
 Backend/MoviesReview.API/*.log
 
 # Ignore generated files
-Backend/MoviesReview.API/.vs/
-Backend/MoviesReview.API/.idea/
-Backend/MoviesReview.API/.DS_Store
+.idea/
+.DS_Store
 
 # Ignore environment files
-Backend/MoviesReview.API/.env
+Backend/MoviesReview.API/.env*
 Backend/MoviesReview.API/.env.local
 
 # Ignore migrations binary output
 Backend/MoviesReview.API/Migrations/
 
 ## Frontend
-Frontend/logs
-Frontend/*.log
-Frontend/npm-debug.log*
-Frontend/yarn-debug.log*
-Frontend/yarn-error.log*
-Frontend/pnpm-debug.log*
-Frontend/lerna-debug.log*
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 # Dependencies
-Frontend/node_modules
-Frontend/dist
-Frontend/dist-ssr
-Frontend/.parcel-cache
-Frontend/.next
-Frontend/.nuxt
-Frontend/out
+node_modules/
+dist/
+dist-ssr/
+.parcel-cache/
+.next/
+.nuxt/
+out/
 
 # Local environment
-Frontend/.env.local
-Frontend/.env.development.local
-Frontend/.env.test.local
-Frontend/.env.production.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Editor directories and files
-Frontend/.vscode/*
-!Frontend/.vscode/extensions.json
-Frontend/.idea
-Frontend/.DS_Store
-Frontend/*.suo
-Frontend/*.ntvs*
-Frontend/*.njsproj
-Frontend/*.sln
-Frontend/*.sw?
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
