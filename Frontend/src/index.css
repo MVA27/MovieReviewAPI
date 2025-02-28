@@ -5,3 +5,8 @@ body{
   padding-right: 5px;
   background-repeat: no-repeat;
 }
+
+.all-movies-list{
+  display: flex;
+  justify-content: flex-end;
+}

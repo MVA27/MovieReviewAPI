@@ -55,6 +55,8 @@ out/
 .env.development.local
 .env.test.local
 .env.production.local
+.env
+Frontend/.env
 
 # Editor directories and files
 .vscode/

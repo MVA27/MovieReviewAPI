@@ -1,4 +1,4 @@
-import { IconButton, Button } from '@radix-ui/themes'
+import { IconButton } from '@radix-ui/themes'
 import MovieForm from '../components/MovieForm'
 import { ROUTES } from '../constants/routes.js'
 import { useNavigate  } from "react-router-dom";
@@ -10,13 +10,14 @@ export default function Home() {
 
   return (
     <>
-      <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-        {/* <Button onClick={ ()=>{ navigate(ROUTES.LIST) } } color='orange'> All Movies </Button> */}
-        <IconButton color='orange'>
-           
+      <div className='all-movies-list'>
+        <IconButton onClick={ ()=>{ navigate(ROUTES.LIST) } } color='orange'>
+          <ListBulletIcon/>
         </IconButton>
       </div>
+
       <MovieForm />
+
     </>
   )
 }
