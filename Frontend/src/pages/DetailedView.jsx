@@ -25,6 +25,18 @@ export default function DetailedView() {
         }
     }
 
+    function handleNameChange(e) {
+        if (e.target.value.length <= 20){ // max characters allowed 20
+            setName(e.target.value)
+        }
+    }
+
+    function handleReviewChange(e) {
+        if (e.target.value.length <= 200){ // max characters allowed 200
+            setReview(e.target.value)
+        }
+    }
+
     return (
         <>  
             <Flex direction="row" gap="3" p="1">
@@ -43,11 +55,11 @@ export default function DetailedView() {
                 ?  
                 <>         
                     <Box>
-                        <TextField.Root onChange={ (e)=>{ setName(e.target.value) } } value={name} radius="none" style={{  height:'70px', fontSize: '50px' }} />
+                        <TextField.Root onChange={ handleNameChange } value={name} radius="none" style={{  height:'70px', fontSize: '50px' }} />
                     </Box>    
                     <br/> 
                     <Box>
-                        <TextArea onChange={ (e)=>{ setReview(e.target.value) } } size="3" value={review} radius="none" resize="both" style={{  fontSize: '30px' }}/>
+                        <TextArea onChange={ handleReviewChange } size="3" value={review} radius="none" resize="both" style={{  fontSize: '30px' }}/>
                     </Box> 
                 </>
 

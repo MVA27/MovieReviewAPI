@@ -1,22 +1,34 @@
-import { TextField, TextArea, Button, Container, Box } from "@radix-ui/themes";
-import { useState } from "react";
+import { InfoCircledIcon } from "@radix-ui/react-icons";
+import { TextField, TextArea, Button, Container, Box, Callout } from "@radix-ui/themes";
+import { useEffect, useState } from "react";
 
 export default function MovieForm() {
 
     const [name, setName] = useState("");
     const [review, setReview] = useState("");
+    const [status, setStatus] = useState(false);
 
-    function handleSubmit(e) {
+    useEffect(() => {
+        const timer = setTimeout(() => setStatus(false), 3000); // Hide after 3 seconds
+        return () => clearTimeout(timer);
+      }, [status]);
+
+    const handleSubmit = async (e)=>{
+
+        e.preventDefault();
 
         const endpoint = import.meta.env.VITE_API_ENDPOINT
 
-        fetch(endpoint, {
+        const response = await fetch(endpoint, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name, review }),
-          });
+        });
 
-        e.preventDefault();
+        if (response.ok) {
+            setStatus(true);
+        }
+
     }
 
     return (
@@ -40,7 +52,20 @@ export default function MovieForm() {
                             m="1"
                         />
                         <Button color="orange" variant="solid" type="submit" m="1">Enter</Button>
-                    </form>                    
+                    </form>
+                    {
+                        status && 
+                        (
+                            <Callout.Root color='orange' mt='4'>
+                            <Callout.Icon>
+                                <InfoCircledIcon />
+                            </Callout.Icon>
+                            <Callout.Text>
+                                Movie Added
+                            </Callout.Text>
+                            </Callout.Root>            
+                        )
+                    }                    
                 </Container>
             </Box>
         </>
