@@ -110,8 +110,14 @@ public class MoviesController : Controller
 
         if (movie == null) return NotFound(new ErrorResponse { Message = Message.MovieDoesNotExist });
 
-        movie.Name = response.Name;
-        movie.Review = response.Review;
+        if (!string.IsNullOrWhiteSpace(response.Name))
+        {
+            movie.Name = response.Name;
+        }
+        if (!string.IsNullOrWhiteSpace(response.Review))
+        {
+            movie.Review = response.Review;
+        }
 
         _db.MovieTable.Update(movie);
         await _db.SaveChangesAsync();
